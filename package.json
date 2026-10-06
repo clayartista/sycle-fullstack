@@ -1,0 +1,39 @@
+{
+  "name": "sycle-pwa",
+  "version": "1.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "format": "prettier --write .",
+    "ingest:evidence": "node scripts/ingest-evidence.mjs",
+    "validate:flow": "node scripts/validate-primary-flow.mjs",
+    "validate:ui": "node scripts/validate-ui-structure.mjs",
+    "validate:v5": "node scripts/validate-v5.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.117.2",
+    "next": "16.3.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@testing-library/jest-dom": "6.9.1",
+    "@types/jest": "30.0.0",
+    "@types/node": "24.10.4",
+    "@types/react": "19.2.13",
+    "@types/react-dom": "19.2.3",
+    "jest": "30.5.2",
+    "jest-environment-jsdom": "30.5.2",
+    "prettier": "3.6.2",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  }
+}

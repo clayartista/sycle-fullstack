@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-sycle-bg: #FFF8FB;
+  --color-sycle-dark: #332A35;
+  --color-sycle-muted: #7A6B7F;
+  --color-sycle-border: #EDD8E2;
+  --color-blush: #F8E8EF;
+  --color-sage: #E9F2EA;
+  --color-lavender: #EEEAF8;
+  --color-powder: #E8F1F7;
+  --color-rose: #B84E73;
+  --color-rose-dark: #8E3E5E;
+  --color-rose-light: #F5D6E4;
+  --font-sans: 'Open Sans', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #FFF8FB;
+  color: #332A35;
+  font-family: 'Open Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #EDD8E2 transparent;
+}
+*::-webkit-scrollbar { width: 4px; height: 4px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background: #EDD8E2; border-radius: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

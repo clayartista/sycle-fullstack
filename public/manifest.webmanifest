@@ -1,0 +1,14 @@
+{
+  "name": "SYCLE",
+  "short_name": "SYCLE",
+  "description": "Pahami kondisi lingkungan dan tubuhmu hari ini.",
+  "lang": "id-ID",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFF8FB",
+  "theme_color": "#B84E73",
+  "icons": [
+    { "src": "/sycle-logo.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

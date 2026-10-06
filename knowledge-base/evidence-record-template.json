@@ -1,0 +1,38 @@
+{
+  "topic": {
+    "slug": "example-topic",
+    "name": "Example Topic",
+    "category": "environment-reproductive-health",
+    "whyRelevant": "Why this topic is relevant to the user context.",
+    "defaultActions": ["Action grounded in the evidence"]
+  },
+  "source": {
+    "title": "Exact publication title",
+    "authors": "Exact author list",
+    "publicationYear": 2026,
+    "publisher": "Journal / institution",
+    "journal": "Journal name",
+    "doi": "10.xxxx/xxxxx",
+    "url": "https://official-source.example",
+    "sourceType": "systematic_review",
+    "evidenceLevel": "high",
+    "verified": false,
+    "status": "draft"
+  },
+  "claims": [
+    {
+      "claim": "Neutral claim supported by the source.",
+      "summary": "Short user-facing explanation.",
+      "population": "Who was studied",
+      "context": "Exposure/context",
+      "evidenceStrength": "moderate",
+      "limitations": ["Important limitation"],
+      "actionSuggestions": ["Practical action supported by evidence"],
+      "reviewStatus": "draft"
+    }
+  ],
+  "citation": {
+    "citationText": "Author. Title. Journal. Year.",
+    "page": 12
+  }
+}
