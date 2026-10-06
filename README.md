@@ -14,6 +14,43 @@ SYCLE is a responsive PWA built with Next.js/React and Supabase. The visual syst
 - Open-Meteo weather + air quality integration
 - geolocation Permissions-Policy header
 
+## RULES
+RULE 1
+Jangan coding langsung di main.
+
+RULE 2
+Sebelum coding:
+  git checkout develop
+  git pull
+
+RULE 3
+Buat branch sendiri:
+git checkout -b feature/nama-fitur
+
+RULE 4
+Satu branch = satu pekerjaan.
+  Contoh bagus:
+      feature/journal-ui
+  Contoh kurang bagus:
+      feature/semua-halaman
+RULE 5
+Commit kecil-kecil.
+  Contoh:
+      feat: create journal page
+      feat: add journal form
+      fix: journal validation
+
+Bukan:
+update semuanya
+
+RULE 6
+Sebelum Pull Request, jalankan:
+      npm run typecheck
+      npm run test
+      npm run build
+
+Kalau semuanya berhasil, baru PR.
+
 ## Run
 
 ```bash
