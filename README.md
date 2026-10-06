@@ -33,6 +33,7 @@ Satu branch = satu pekerjaan.
       feature/journal-ui
   Contoh kurang bagus:
       feature/semua-halaman
+
 RULE 5
 Commit kecil-kecil.
   Contoh:
